@@ -1,0 +1,122 @@
+.projects__container {
+  overflow: initial;
+}
+
+.projects__content {
+  display: felx;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.projects__img {
+  width: 400px;
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+  border: 2px solid rgb(221, 219, 219);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.projects__subtitle {
+  font-size: var(--small-font-size);
+  color: black;
+  margin-bottom: 0px;
+  padding: 0 20px 20px 20px;
+  text-align: center;
+}
+
+.projects__title {
+  font-size: 25px;
+  margin-bottom: 1.25rem;
+  margin: 0.5rem 0 1.25rem;
+  text-align: center;
+}
+
+.projects__buttons {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: var(--title-color);
+  font-size: 1rem;
+  color: aliceblue;
+  background-color: rgb(33, 72, 211);
+  padding: 10px 40px;
+  border-radius: 0.75rem;
+}
+
+/* .projects__buttons {
+  font-size: 1rem;
+  transition: transform 0.3s;
+  color: aliceblue;
+  background-color: rgb(33, 72, 211);
+  padding: 10px 20px;
+  border-radius: 0.75rem;
+} */
+
+.projects__buttons:hover {
+  transform: translateX(0.25rem);
+}
+
+.projects__square {
+  background-color: whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  margin-bottom: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.projects__demo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .projects__img {
+    width: 700px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .projects__square {
+    padding: 0;
+    margin-bottom: 80px;
+  }
+
+  .projects__subtitle {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1rem;
+  }
+
+  .projects__title {
+    text-align: center;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1600px) {
+  .projects__img {
+    width: 950px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .projects__square {
+    padding: 0;
+    margin-bottom: 100px;
+  }
+
+  .projects__subtitle {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1rem;
+  }
+
+  .projects__title {
+    text-align: left;
+    margin-left: 50px;
+  }
+}
