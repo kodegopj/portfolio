@@ -23,7 +23,7 @@ function Nav() {
         <a href="#about">About Me</a>
         <a href="#skills">Skills & Tools</a>
         <a href="#projects">Projects</a>
-        <a href="#contact" className="contact">
+        <a href="#contacts" className="contact">
           Contact Me
         </a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>

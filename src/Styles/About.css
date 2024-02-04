@@ -5,9 +5,10 @@
 }
 
 .about__img {
-  width: 350px;
+  width: 380px;
   border-radius: 1.5rem;
   justify-self: center;
+  background-color: rgb(33, 72, 211);
 }
 
 /*========== BREAKPOINTS =========*/

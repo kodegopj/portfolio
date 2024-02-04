@@ -1,9 +1,10 @@
 import React from "react";
 import "../../Styles/About.css";
 import Try from "../../assets/try.jpg";
-// import cv
+import cv from "../../assets/PROFILE.pdf"
 import Info from "./Info";
 import { FaDownload } from "react-icons/fa6";
+import img3 from "../../assets/img3.png";
 
 function About() {
   return (
@@ -24,7 +25,7 @@ function About() {
             interfaces through writing clean and optimized code and utilizing
             cutting edge development tools and techniques. */}
           </p>
-          <a href="#contact" className="button button--flex">
+          <a href={cv} className="button button--flex">
             Download CV <FaDownload className="about__download" />
           </a>
         </div>

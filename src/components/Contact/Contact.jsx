@@ -53,7 +53,7 @@ function Contact() {
               <h3 className="contacts__card-title">linkedin</h3>
               <span className="contacts__card-data">linkedin</span>
 
-              <a href="" className="contacts__button">
+              <a href="https://www.linkedin.com/in/paul-john-cunanan-b91176297" className="contacts__button">
                 Write me
                 <FaArrowRight className="arrow__icon" />
               </a>

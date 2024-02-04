@@ -38,7 +38,7 @@ function Footer() {
           >
             <FaGithub />
           </a>
-          <a href="/#" className="footer__social-link" target="_blank">
+          <a href="https://www.linkedin.com/in/paul-john-cunanan-b91176297" className="footer__social-link" target="_blank">
             <FaLinkedin />
           </a>
           <a

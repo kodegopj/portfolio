@@ -1,6 +1,7 @@
 import React from "react";
 import "../../Styles/Home.css";
 import hand from "../../assets/hand.png";
+import img2 from "../../assets/img2.png";
 import { RiMailSendFill } from "react-icons/ri";
 
 function Data() {
@@ -14,11 +15,10 @@ function Data() {
         I'm a frontend developer, i'm very passionate and dedicated to my work,
         and i offer the best projects resulting in quality work
       </p>
-      <a href="#contact" className=" hello button--flex">
-        Say Hello <RiMailSendFill className="icon__hello" />
+      <a href="#contacts" className=" hello button--flex">
+        Hello <RiMailSendFill className="icon__hello" />
       </a>
     </div>
- 
   );
 }
 
