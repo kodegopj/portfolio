@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Styles/About.css";
 import Try from "../../assets/try.jpg";
-import cv from "../../assets/PROFILE.pdf"
+import Resume from "../../assets/RESUME.pdf";
 import Info from "./Info";
 import { FaDownload } from "react-icons/fa6";
 import img3 from "../../assets/img3.png";
@@ -18,14 +18,14 @@ function About() {
         <div className="about__data">
           {/* <Info /> */}
           <p className="about__description">
-            As a junior Front-End Developer, I posses an impressive arsenal of
+            As a junior Full-STack Developer, I posses an impressive arsenal of
             skills in HTML, CSS, JavaScript, React, and Tailwind. I excel in
             designing and maintaining responsive websites that offer a smooth
-            {/* user experience. My expertise in crafting dynamic, engaging
+            user experience. My expertise in crafting dynamic, engaging
             interfaces through writing clean and optimized code and utilizing
-            cutting edge development tools and techniques. */}
+            cutting edge development tools and techniques.
           </p>
-          <a href={cv} className="button button--flex">
+          <a download="" href={Resume} className="button button--flex">
             Download CV <FaDownload className="about__download" />
           </a>
         </div>

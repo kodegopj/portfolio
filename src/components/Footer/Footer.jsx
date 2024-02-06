@@ -19,7 +19,7 @@ function Footer() {
 
           <li>
             <a href="#projects" className="footer__link">
-              projects
+              Projects
             </a>
           </li>
 

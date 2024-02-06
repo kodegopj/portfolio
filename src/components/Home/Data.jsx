@@ -12,8 +12,10 @@ function Data() {
       </h1>
       <h3 className="home__subtitle">Junior Web Developer</h3>
       <p className="home__description">
-        I'm a frontend developer, i'm very passionate and dedicated to my work,
-        and i offer the best projects resulting in quality work
+        I'm a Junior Web developer, I bring a strong foundation in HTML, CSS and
+        Javasctipt, i'm very passionate and dedicated to my project. I am
+        excited about leveraging my coding skills to create a user-friendly and
+        visually appealing websites resulting in quality work.
       </p>
       <a href="#contacts" className=" hello button--flex">
         Hello <RiMailSendFill className="icon__hello" />
