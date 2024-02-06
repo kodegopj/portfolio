@@ -32,7 +32,7 @@ function Footer() {
 
         <div className="footer__social">
           <a
-            href="https://github.com/dashboard"
+            href="https://github.com/kodegopj"
             className="footer__social-link"
             target="_blank"
           >
