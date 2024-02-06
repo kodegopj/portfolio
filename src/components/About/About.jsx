@@ -18,12 +18,13 @@ function About() {
         <div className="about__data">
           {/* <Info /> */}
           <p className="about__description">
-            As a junior Full-STack Developer, I posses an impressive arsenal of
+          I'm a Web Developer, life long learner, advernturer, and tech enthusiast. I enjoy web development beacause of the satisfaction i get by overcoming challenges. I am motivated by the opportunity that software provides to positively impact the llife of an individual, and the world as a whole.
+            {/* As a junior Full-STack Developer, I posses an impressive arsenal of
             skills in HTML, CSS, JavaScript, React, and Tailwind. I excel in
             designing and maintaining responsive websites that offer a smooth
             user experience. My expertise in crafting dynamic, engaging
             interfaces through writing clean and optimized code and utilizing
-            cutting edge development tools and techniques.
+            cutting edge development tools and techniques. */}
           </p>
           <a download="" href={Resume} className="button button--flex">
             Download CV <FaDownload className="about__download" />
